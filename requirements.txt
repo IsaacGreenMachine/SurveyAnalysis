@@ -1,0 +1,7 @@
+
+gradio
+opencv-python
+scikit-learn
+sentence-transformers
+torch
+transformers
