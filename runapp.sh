@@ -53,7 +53,7 @@ else #venv does not exist
 fi
 # check for packages in venv, install if not present
 echo "installing relevant python packages"
-pip3 install -r $PWD/requirements.txt
+pip3 install -r $(dirname $0)/requirements.txt
 # launch app?
 echo "starting app"
-python3 $PWD/app.py
+python3 $(dirname $0)/app.py

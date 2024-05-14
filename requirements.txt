@@ -1,5 +1,6 @@
 
 gradio
+matplotlib
 opencv-python
 scikit-learn
 sentence-transformers
